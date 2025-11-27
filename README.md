@@ -18,7 +18,7 @@ Click the button below to start a Koyeb deployment. The deploy process will ask 
 - `DATABASE_URL`
 - `JWT_SECRET`
 
-[![Deploy on Koyeb]()](https://app.koyeb.com/apps/new?name=chatvista&from=github&repo=your-username/chatvista)
+[![Deploy on Koyeb](https://www.koyeb.com/deploy/button.svg)](https://app.koyeb.com/deploy?repo=https://github.com/princemaster1/chatvista&env[DATABASE_URL]=postgresql://...&env[JWT_SECRET]=YourSecretHere&env[OPENAI_API_KEY]=sk-...)
 
 > Replace the GitHub repo URL above with your repository after you push this code.
 

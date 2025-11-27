@@ -18,7 +18,7 @@ Click the button below to start a Koyeb deployment. The deploy process will ask 
 - `DATABASE_URL`
 - `JWT_SECRET`
 
-[![Deploy on Koyeb](https://www.koyeb.com/images/deploy/button.svg)](https://app.koyeb.com/apps/new?name=chatvista&from=github&repo=your-username/chatvista)
+[![Deploy on Koyeb]()](https://app.koyeb.com/apps/new?name=chatvista&from=github&repo=your-username/chatvista)
 
 > Replace the GitHub repo URL above with your repository after you push this code.
 

@@ -5,8 +5,7 @@ services:
       repository: https://github.com/princemaster1/chatvista.git
       branch: main
       root_dir: backend
-    build_command: npm ci
-    run_command: npm start
+    dockerfile: Dockerfile
     env:
       - name: DATABASE_URL
         value: ${DATABASE_URL}
@@ -21,8 +20,7 @@ services:
       repository: https://github.com/princemaster1/chatvista.git
       branch: main
       root_dir: frontend
-    build_command: npm ci && npm run build
-    run_command: npm run start -- -p 3000
+    dockerfile: Dockerfile
     env:
       - name: NEXT_PUBLIC_API_URL
         value: https://chatvista-backend.${KOYEB_APP_SUBDOMAIN}.koyeb.app/api

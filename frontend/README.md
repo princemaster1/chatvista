@@ -1,0 +1,1 @@
+Frontend (Next.js) client. Run with `npm run dev`.
